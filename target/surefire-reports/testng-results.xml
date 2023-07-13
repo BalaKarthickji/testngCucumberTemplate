@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2023-07-13T12:32:05 IST" finished-at="2023-07-13T12:32:05 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="15468" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:05 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="scenario" class="testRunners.MyRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ChromeTest" duration-ms="15468" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:05 IST">
+      <class name="testRunners.Runner1">
+        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="setUpCucumber" is-config="true" duration-ms="9131" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:31:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="scenario" duration-ms="3154" started-at="2023-07-13T12:31:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-13T12:32:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Email field is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at stepDefinitions.LoginStepDefs.i_want_to_write_a_step_with_precondition(LoginStepDefs.java:22)
+at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Documents/testngCucumberTemplate/src/test/resources/com/features/login.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="tearDownClass" is-config="true" duration-ms="3166" started-at="2023-07-13T12:32:02 IST" finished-at="2023-07-13T12:32:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="TestCompletion" is-config="true" duration-ms="0" started-at="2023-07-13T12:32:05 IST" finished-at="2023-07-13T12:32:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCompletion -->
+      </class> <!-- testRunners.Runner1 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="10896" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:00 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="scenario" class="testRunners.MyRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ChromeTest" duration-ms="10896" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:00 IST">
+      <class name="testRunners.Runner1">
+        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="setUpCucumber" is-config="true" duration-ms="5639" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:31:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="scenario" duration-ms="4008" started-at="2023-07-13T12:31:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-13T12:31:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Email field is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at stepDefinitions.LoginStepDefs.i_want_to_write_a_step_with_precondition(LoginStepDefs.java:22)
+at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Documents/testngCucumberTemplate/src/test/resources/com/features/login.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="tearDownClass" is-config="true" duration-ms="1189" started-at="2023-07-13T12:31:59 IST" finished-at="2023-07-13T12:32:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="TestCompletion" is-config="true" duration-ms="11" started-at="2023-07-13T12:32:00 IST" finished-at="2023-07-13T12:32:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCompletion -->
+      </class> <!-- testRunners.Runner1 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

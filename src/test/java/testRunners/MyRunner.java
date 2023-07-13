@@ -1,7 +1,5 @@
 package testRunners;
 
-
-
 import com.qa.factory.DriverFactory;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.FeatureWrapper;
@@ -54,14 +52,14 @@ public class MyRunner {
 		return getRunner().provideScenarios();
 	}
 
-    @Parameters({"browser"})
-    @BeforeClass(alwaysRun = true)
-    public void setUpCucumber(String browser) {
-        ThreadContext.put("ROUTINGKEY", browser);
-        driverFactory = new DriverFactory();
-        driver = driverFactory.init_driver(browser);
-        setRunner(new TestNGCucumberRunner(this.getClass()));
-    }
+	@Parameters({"browser"})
+	@BeforeClass(alwaysRun = true)
+	public void setUpCucumber(String browser) {
+		ThreadContext.put("ROUTINGKEY", browser);
+		driverFactory = new DriverFactory();
+		driver = driverFactory.init_driver(browser);
+		setRunner(new TestNGCucumberRunner(this.getClass()));
+	}
 
 	@AfterClass(alwaysRun = true)
 	public void tearDownClass() {
@@ -69,17 +67,13 @@ public class MyRunner {
 			DriverFactory.getDriver().quit();
 			DriverFactory.setDriver(null);
 		}
-	}
-	@BeforeSuite
-	public void TestTriggered() {
-		
+
 	}
 
 	@AfterSuite
 	public void TestCompletion() {
-			if (testNGCucumberRunner != null)
-				getRunner().finish();
-		later = LocalDateTime.now();
+		//if (getRunner() != null)
+			//getRunner().finish();
 		String path = "./cookies";
 		File directory = new File(path);
 		if (!Files.exists(Paths.get(path))) {
@@ -93,6 +87,5 @@ public class MyRunner {
 				}
 			}
 		}
-		
 	}
 }
