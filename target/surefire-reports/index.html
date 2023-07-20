@@ -24,23 +24,23 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">2 suites, 1 failed test</span>
+      <span class="top-banner-font-1">2 suites</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite__0_" class="navigator-link">
-              <span class="suite-name border-failed">Suite (0)</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite__0_">
+              <span class="suite-name border-passed">Suite (0)</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite__0_" class="navigator-link ">
-                    <span>C:\Users\91948\eclipse-workspace\TemplateSetup_2\XMLs\chrometestng.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite__0_">
+                    <span>C:\Users\lenovo\Documents\testngCucumberTemplate\XMLs\chrometestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite__0_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite__0_">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite__0_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite__0_">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite__0_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite__0_">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite__0_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite__0_">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite__0_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite__0_">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite__0_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite__0_">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite__0_" class="hide-methods failed suite-Suite__0_"> (hide)</a> <!-- hide-methods failed suite-Suite__0_ -->
-                      <a href="#" panel-name="suite-Suite__0_" class="show-methods failed suite-Suite__0_"> (show)</a> <!-- show-methods failed suite-Suite__0_ -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite__0_" class="hide-methods passed suite-Suite__0_"> (hide)</a> <!-- hide-methods passed suite-Suite__0_ -->
+                      <a href="#" panel-name="suite-Suite__0_" class="show-methods passed suite-Suite__0_"> (show)</a> <!-- show-methods passed suite-Suite__0_ -->
                     </span>
-                    <div class="method-list-content failed suite-Suite__0_">
+                    <div class="method-list-content passed suite-Suite__0_">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite__0_" title="testRunners.Runner1" class="method navigator-link" hash-for-method="scenario(&quot;Title of your scenario&quot;, &quot;Optional[Title of your feature]&quot;)">scenario("Title of your scenario", "Optional[Title of your feature]")</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite__0_" title="testRunners.Runner1" hash-for-method="scenario(&quot;Title of your scenario&quot;, &quot;Optional[Title of your feature]&quot;)">scenario("Title of your scenario", "Optional[Title of your feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite__0_ -->
+                    </div> <!-- method-list-content passed suite-Suite__0_ -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,9 +121,9 @@
         <div panel-name="suite-Suite" class="panel Suite">
         </div> <!-- panel Suite -->
         <div panel-name="suite-Suite__0_" class="panel Suite__0_">
-          <div class="suite-Suite__0_-class-failed">
+          <div class="suite-Suite__0_-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testRunners.Runner1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -133,27 +133,22 @@
                   </a> <!-- scenario("Title of your scenario", "Optional[Title of your feature]") -->
                   <span class="method-name">scenario</span>
                   <span class="parameters">("Title of your scenario", "Optional[Title of your feature]")</span>
-                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
-	at stepDefinitions.LoginStepDefs.some_other_precondition(LoginStepDefs.java:29)
-	at ✽.some other precondition(file:///C:/Users/91948/eclipse-workspace/TemplateSetup_2/src/test/resources/com/features/Medical/login.feature:6)
-
-</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite__0_-class-failed -->
+          </div> <!-- suite-Suite__0_-class-passed -->
         </div> <!-- panel Suite__0_ -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\91948\eclipse-workspace\TemplateSetup_2\XMLs\testng.xml</span>
+            <span class="header-content">C:\Users\lenovo\Documents\testngCucumberTemplate\XMLs\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;suite-files&gt;
     &lt;suite-file path=&quot;chrometestng.xml&quot;/&gt;
   &lt;/suite-files&gt;
@@ -163,14 +158,14 @@
         </div> <!-- panel -->
         <div panel-name="test-xml-Suite__0_" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\91948\eclipse-workspace\TemplateSetup_2\XMLs\chrometestng.xml</span>
+            <span class="header-content">C:\Users\lenovo\Documents\testngCucumberTemplate\XMLs\chrometestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot; verbose=&quot;0&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite (0)&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testRunners.Runner1&quot;/&gt;
@@ -266,12 +261,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'scenario')
 data.setCell(0, 2, 'testRunners.Runner1')
-data.setCell(0, 3, 3896);
+data.setCell(0, 3, 14098);
 window.suiteTableData['Suite__0_']= { tableData: data, tableDiv: 'times-div-Suite__0_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Suite__0_">
               </div> <!-- times-div-Suite__0_ -->
             </div> <!-- times-div -->
@@ -324,18 +319,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">scenario("Title of your scenario", "Optional[Title of your feature]")</span>
-                <span class="method-start">1852 ms</span>
+                <span class="method-start">4019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">5751 ms</span>
+                <span class="method-start">18125 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">TestCompletion</span>
-                <span class="method-start">5864 ms</span>
+                <span class="method-start">19023 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

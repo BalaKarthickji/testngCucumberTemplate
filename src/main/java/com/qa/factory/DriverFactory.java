@@ -2,6 +2,7 @@ package com.qa.factory;
 
 import java.util.HashMap;
 
+import com.qa.util.JSWaiter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -42,6 +43,7 @@ public class DriverFactory {
 			
 			WebDriverManager.chromedriver().setup();
 			tlDriver.set(new ChromeDriver(options));
+			JSWaiter.setDriver(getDriver());
 
 		} else if (Browser.equalsIgnoreCase("firefox")) {
 		
@@ -56,6 +58,7 @@ public class DriverFactory {
 			options.setProfile(profile);
 			WebDriverManager.firefoxdriver().setup();
 			tlDriver.set(new FirefoxDriver(options));
+			JSWaiter.setDriver(getDriver());
 		} else if (Browser.equalsIgnoreCase("edge")) {
 			HashMap<String, Object> edgePrefs = new HashMap<String, Object>();
 			edgePrefs.put("profile.default_content_settings.popups", 1);
@@ -67,6 +70,7 @@ public class DriverFactory {
 			egdeOptions.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
 			WebDriverManager.edgedriver().setup();
 			tlDriver.set(new EdgeDriver(egdeOptions));
+			JSWaiter.setDriver(getDriver());
 			
 		}
 		getDriver().manage().deleteAllCookies();

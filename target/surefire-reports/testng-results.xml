@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-20T12:07:42 IST" name="Suite" finished-at="2023-07-20T12:07:42 IST" duration-ms="0">
+  <suite name="Suite" duration-ms="0" started-at="2023-07-20T12:39:53 IST" finished-at="2023-07-20T12:39:53 IST">
     <groups>
     </groups>
   </suite> <!-- Suite -->
-  <suite started-at="2023-07-20T12:07:36 IST" name="Suite (0)" finished-at="2023-07-20T12:07:42 IST" duration-ms="5859">
+  <suite name="Suite (0)" duration-ms="18991" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:52 IST">
     <groups>
       <group name="cucumber">
-        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5b1669c0]" name="scenario" class="testRunners.MyRunner"/>
+        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5579bb86]" name="scenario" class="testRunners.MyRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-07-20T12:07:36 IST" name="ChromeTest" finished-at="2023-07-20T12:07:42 IST" duration-ms="5859">
+    <test name="ChromeTest" duration-ms="18991" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:52 IST">
       <class name="testRunners.Runner1">
-        <test-method is-config="true" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@5b1669c0]" started-at="2023-07-20T12:07:36 IST" name="setUpCucumber" finished-at="2023-07-20T12:07:38 IST" duration-ms="1846" status="PASS">
+        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@5579bb86]" name="setUpCucumber" is-config="true" duration-ms="4003" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:37 IST">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpCucumber -->
-        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5b1669c0]" started-at="2023-07-20T12:07:38 IST" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:07:42 IST" duration-ms="3896" status="FAIL">
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5579bb86]" name="scenario" duration-ms="14098" started-at="2023-07-20T12:39:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:39:52 IST">
           <params>
             <param index="0">
               <value>
@@ -38,25 +38,14 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
-            <message>
-              <![CDATA[TODO: implement me]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at stepDefinitions.LoginStepDefs.some_other_precondition(LoginStepDefs.java:29)
-at ✽.some other precondition(file:///C:/Users/91948/eclipse-workspace/TemplateSetup_2/src/test/resources/com/features/Medical/login.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@5b1669c0]" started-at="2023-07-20T12:07:42 IST" name="tearDownClass" finished-at="2023-07-20T12:07:42 IST" duration-ms="99" status="PASS">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@5579bb86]" name="tearDownClass" is-config="true" duration-ms="851" started-at="2023-07-20T12:39:52 IST" finished-at="2023-07-20T12:39:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@5b1669c0]" started-at="2023-07-20T12:07:42 IST" name="TestCompletion" finished-at="2023-07-20T12:07:42 IST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@5579bb86]" name="TestCompletion" is-config="true" duration-ms="0" started-at="2023-07-20T12:39:52 IST" finished-at="2023-07-20T12:39:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCompletion -->
