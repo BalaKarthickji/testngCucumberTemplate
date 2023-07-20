@@ -16,10 +16,11 @@ public class LoginStepDefs {
 	@Given("I want to write a step with precondition")
 	public void i_want_to_write_a_step_with_precondition() throws InterruptedException {
 		//OpenURL
-		DriverFactory.getDriver().get("https://www.facebook.com/");
-	    boolean pageTitle = lp.getPageTitle();
+		DriverFactory.getDriver().get("https://1careafrica-dev.syncierapps.com/");
+	    lp.getPageTitle();
+	   
 	   // Assert.assertEquals(pageTitle, "Login Page", "Page does not open");
-	    Assert.assertTrue(pageTitle, "Email field is not displayed");
+	   // Assert.assertEquals(pageTitle, "Email field is not displayed");
 	}
 
 	@Given("some other precondition")

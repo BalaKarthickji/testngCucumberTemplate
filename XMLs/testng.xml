@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Define the parallel tests -->
 <suite name="Suite">
 	<suite-files>
 		<suite-file path="chrometestng.xml" />
-		<suite-file path="chrometestng2.xml" />
-<!-- 		<suite-file path="chrometestng3.xml" />
-		<suite-file path="chrometestng4.xml" /> -->
+		
 	</suite-files>
 </suite> <!-- Suite -->

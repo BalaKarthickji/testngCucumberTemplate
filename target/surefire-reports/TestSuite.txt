@@ -1,10 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 16.796 s <<< FAILURE! - in TestSuite
-testRunners.Runner1.scenario["Title of your scenario", "Optional[Title of your feature]"](1)  Time elapsed: 0.184 s  <<< FAILURE!
-java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
-
-testRunners.Runner1.scenario["Title of your scenario", "Optional[Title of your feature]"](1)  Time elapsed: 3.732 s  <<< FAILURE!
-java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.2 s <<< FAILURE! - in TestSuite
+testRunners.Runner1.scenario["Title of your scenario", "Optional[Title of your feature]"](1)  Time elapsed: 3.894 s  <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
 
