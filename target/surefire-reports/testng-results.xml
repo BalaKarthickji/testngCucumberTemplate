@@ -1,80 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="0" started-at="2023-07-20T12:23:05 IST" finished-at="2023-07-20T12:23:05 IST">
+  <suite name="Suite" duration-ms="0" started-at="2023-07-20T12:39:53 IST" finished-at="2023-07-20T12:39:53 IST">
     <groups>
     </groups>
   </suite> <!-- Suite -->
-  <suite name="Suite (1)" duration-ms="52375" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:23:05 IST">
+  <suite name="Suite (0)" duration-ms="18991" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:52 IST">
     <groups>
       <group name="cucumber">
-        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="scenario" class="testRunners.MyRunner"/>
+        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5579bb86]" name="scenario" class="testRunners.MyRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="ChromeTest" duration-ms="52375" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:23:05 IST">
+    <test name="ChromeTest" duration-ms="18991" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:52 IST">
       <class name="testRunners.Runner1">
-        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="setUpCucumber" is-config="true" duration-ms="21873" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:34 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpCucumber -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="scenario" duration-ms="29303" started-at="2023-07-20T12:22:34 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:23:04 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Title of your scenario"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Title of your feature]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Email field is not displayed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at stepDefinitions.LoginStepDefs.i_want_to_write_a_step_with_precondition(LoginStepDefs.java:22)
-at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Documents/testngCucumberTemplate/src/test/resources/com/features/login.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="tearDownClass" is-config="true" duration-ms="1173" started-at="2023-07-20T12:23:04 IST" finished-at="2023-07-20T12:23:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="TestCompletion" is-config="true" duration-ms="1" started-at="2023-07-20T12:23:05 IST" finished-at="2023-07-20T12:23:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCompletion -->
-      </class> <!-- testRunners.Runner1 -->
-    </test> <!-- ChromeTest -->
-  </suite> <!-- Suite (1) -->
-  <suite name="Suite (0)" duration-ms="21159" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:34 IST">
-    <groups>
-      <group name="cucumber">
-        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="scenario" class="testRunners.MyRunner"/>
-      </group> <!-- cucumber -->
-    </groups>
-    <test name="ChromeTest" duration-ms="21159" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:34 IST">
-      <class name="testRunners.Runner1">
-        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="setUpCucumber" is-config="true" duration-ms="7314" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:20 IST">
+        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@5579bb86]" name="setUpCucumber" is-config="true" duration-ms="4003" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:37 IST">
           <params>
             <param index="0">
               <value>
@@ -85,7 +25,7 @@ at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Document
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpCucumber -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="scenario" duration-ms="11976" started-at="2023-07-20T12:22:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:22:32 IST">
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5579bb86]" name="scenario" duration-ms="14098" started-at="2023-07-20T12:39:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:39:52 IST">
           <params>
             <param index="0">
               <value>
@@ -98,28 +38,14 @@ at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Document
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Email field is not displayed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at stepDefinitions.LoginStepDefs.i_want_to_write_a_step_with_precondition(LoginStepDefs.java:22)
-at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Documents/testngCucumberTemplate/src/test/resources/com/features/login.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="tearDownClass" is-config="true" duration-ms="1807" started-at="2023-07-20T12:22:32 IST" finished-at="2023-07-20T12:22:34 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@5579bb86]" name="tearDownClass" is-config="true" duration-ms="851" started-at="2023-07-20T12:39:52 IST" finished-at="2023-07-20T12:39:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="TestCompletion" is-config="true" duration-ms="0" started-at="2023-07-20T12:22:34 IST" finished-at="2023-07-20T12:22:34 IST">
+        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@5579bb86]" name="TestCompletion" is-config="true" duration-ms="0" started-at="2023-07-20T12:39:52 IST" finished-at="2023-07-20T12:39:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCompletion -->

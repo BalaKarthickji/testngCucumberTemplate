@@ -1,1 +1,8 @@
+com\qa\factory\DriverFactory.class
+com\qa\util\ConfigReader.class
 com\qa\constants\Constants.class
+com\qa\util\ElementActions.class
+com\qa\util\JSWaiter.class
+com\pages\LoginPage.class
+com\qa\util\ElementUtils.class
+com\qa\util\Constants.class

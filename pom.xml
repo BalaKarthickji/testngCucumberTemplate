@@ -153,12 +153,12 @@
 <suiteXmlFiles>
 <!-- suppress UnresolvedMavenProperty  -->
 <!--suppress UnresolvedMavenProperty -->
-    <suiteXmlFile>XMLs/${testng}.xml</suiteXmlFile>
+    <suiteXmlFile>XMLs/testng.xml</suiteXmlFile>
 </suiteXmlFiles>
 <properties>
 <property>
 <name>suitethreadpoolsize</name>
-<value>2</value>
+<value>3</value>
 </property>
 </properties>
 </configuration>

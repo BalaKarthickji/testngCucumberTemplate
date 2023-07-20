@@ -4,7 +4,7 @@
   <test name="ChromeTest">
    <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="testRunners.Runner1"/>
+            <class name="testRunners.Runner2"/>
         </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

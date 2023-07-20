@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 53.301 s <<< FAILURE! - in TestSuite
-testRunners.Runner1.scenario["Title of your scenario", "Optional[Title of your feature]"](1)  Time elapsed: 12.227 s  <<< FAILURE!
-java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
-
-testRunners.Runner1.scenario["Title of your scenario", "Optional[Title of your feature]"](1)  Time elapsed: 29.714 s  <<< FAILURE!
-java.lang.AssertionError: Email field is not displayed expected [true] but found [false]
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.897 s - in TestSuite
