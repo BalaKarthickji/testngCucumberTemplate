@@ -10,8 +10,5 @@
         <module name="TemplateSetup_2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="TemplateSetup_2" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
