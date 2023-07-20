@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="0" started-at="2023-07-13T12:32:05 IST" finished-at="2023-07-13T12:32:05 IST">
+  <suite name="Suite" duration-ms="0" started-at="2023-07-20T12:23:05 IST" finished-at="2023-07-20T12:23:05 IST">
     <groups>
     </groups>
   </suite> <!-- Suite -->
-  <suite name="Suite (1)" duration-ms="15468" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:05 IST">
+  <suite name="Suite (1)" duration-ms="52375" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:23:05 IST">
     <groups>
       <group name="cucumber">
         <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="scenario" class="testRunners.MyRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="ChromeTest" duration-ms="15468" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:05 IST">
+    <test name="ChromeTest" duration-ms="52375" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:23:05 IST">
       <class name="testRunners.Runner1">
-        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="setUpCucumber" is-config="true" duration-ms="9131" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:31:58 IST">
+        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="setUpCucumber" is-config="true" duration-ms="21873" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:34 IST">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpCucumber -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="scenario" duration-ms="3154" started-at="2023-07-13T12:31:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-13T12:32:02 IST">
+        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="scenario" duration-ms="29303" started-at="2023-07-20T12:22:34 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:23:04 IST">
           <params>
             <param index="0">
               <value>
@@ -55,26 +55,26 @@ at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Document
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="tearDownClass" is-config="true" duration-ms="3166" started-at="2023-07-13T12:32:02 IST" finished-at="2023-07-13T12:32:05 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="tearDownClass" is-config="true" duration-ms="1173" started-at="2023-07-20T12:23:04 IST" finished-at="2023-07-20T12:23:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="TestCompletion" is-config="true" duration-ms="0" started-at="2023-07-13T12:32:05 IST" finished-at="2023-07-13T12:32:05 IST">
+        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@73d4cc9e]" name="TestCompletion" is-config="true" duration-ms="1" started-at="2023-07-20T12:23:05 IST" finished-at="2023-07-20T12:23:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCompletion -->
       </class> <!-- testRunners.Runner1 -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite (1) -->
-  <suite name="Suite (0)" duration-ms="10896" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:00 IST">
+  <suite name="Suite (0)" duration-ms="21159" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:34 IST">
     <groups>
       <group name="cucumber">
         <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="scenario" class="testRunners.MyRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="ChromeTest" duration-ms="10896" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:32:00 IST">
+    <test name="ChromeTest" duration-ms="21159" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:34 IST">
       <class name="testRunners.Runner1">
-        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="setUpCucumber" is-config="true" duration-ms="5639" started-at="2023-07-13T12:31:49 IST" finished-at="2023-07-13T12:31:55 IST">
+        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="setUpCucumber" is-config="true" duration-ms="7314" started-at="2023-07-20T12:22:13 IST" finished-at="2023-07-20T12:22:20 IST">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@ at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Document
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpCucumber -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="scenario" duration-ms="4008" started-at="2023-07-13T12:31:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-13T12:31:59 IST">
+        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="scenario" duration-ms="11976" started-at="2023-07-20T12:22:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:22:32 IST">
           <params>
             <param index="0">
               <value>
@@ -115,11 +115,11 @@ at ✽.I want to write a step with precondition(file:///C:/Users/lenovo/Document
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="tearDownClass" is-config="true" duration-ms="1189" started-at="2023-07-13T12:31:59 IST" finished-at="2023-07-13T12:32:00 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="tearDownClass" is-config="true" duration-ms="1807" started-at="2023-07-20T12:22:32 IST" finished-at="2023-07-20T12:22:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="TestCompletion" is-config="true" duration-ms="11" started-at="2023-07-13T12:32:00 IST" finished-at="2023-07-13T12:32:00 IST">
+        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@4fcd19b3]" name="TestCompletion" is-config="true" duration-ms="0" started-at="2023-07-20T12:22:34 IST" finished-at="2023-07-20T12:22:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCompletion -->
