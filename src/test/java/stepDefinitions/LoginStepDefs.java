@@ -17,7 +17,7 @@ public class LoginStepDefs {
 	public void i_want_to_write_a_step_with_precondition() throws InterruptedException {
 		//OpenURL
 		DriverFactory.getDriver().get("https://1careafrica-dev.syncierapps.com/");
-	    lp.getPageTitle();
+	    Assert.assertTrue(lp.getPageTitle(), "The homepage is not displayed");
 	   
 	   // Assert.assertEquals(pageTitle, "Login Page", "Page does not open");
 	   // Assert.assertEquals(pageTitle, "Email field is not displayed");
